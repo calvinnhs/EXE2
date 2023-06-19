@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great=Vibes&family=Send+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great=Vibes&family=Send+Flower&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Exercise</title>
+</head>
+    <body>
+        <center>
+            <h1>COLDPLAY</h1>
+            <h1>music of the spheres</h1>
+        <ul>
+            <li>
+                <h2 id="audio">Viva la vida</h2>
+                    <hr>
+                    <audio controls>
+                        <source src="Coldplay  Viva La Vida.mp3" type="audio/mp3">
+                    </audio>
+            </li>
+            <li>
+                <h2 id="video">WORLD TOUR</h2>
+                <hr>
+                <video controls width="500" height="800" loop autoplay muted preload="auto">
+                        <source src="Fix You live Coldplay.mp4" type="video/mp4">
+                        <track kind="captions" src="Fix You live Coldplay.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="gambar">COLDPLAY IMAGE</h2>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="coldplay-cover.jpg">
+                        <source media="(max-width: 1200px)" srcset="coldplay-cover.jpg">
+                        <img src="coldplay-cover.jpg" alt="pic 1" style="width: 600px;">
+                </picture>
+            </li>
+        </ul>
+        </center>
+        <div class="container">
+            <button class="btn btn-primary btn-next" onclick="location.href='Halaman_kedua.html'">Next</button>
+        </div>
+        <script src="exe2.js"></script>
+    </body>
+</html>
